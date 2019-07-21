@@ -3,7 +3,7 @@ Small scripts and application tweaks for System76 Gazelle Gaze 14 laptop on Ubun
 #
 #
 # -------------------------------------------------------------------------------
-#          = enable-toouch-type =
+#          = enable-touch-type =
 By default enable touch/type input on System76: Gaze14 using PID:VID of current built-in keyboard
 #
 #
