@@ -2,7 +2,6 @@
 Small scripts and application tweaks for System76 Gazelle Gaze 14 laptop on Ubuntu 18.04.02 LTS
 #
 #
-# -------------------------------------------------------------------------------
 #          = enable-touch-type =
 By default enable touch/type input on System76: Gaze14 using PID:VID of current built-in keyboard
 #
@@ -18,7 +17,3 @@ $./enable-touch-type.sh 1
 Enabling current users does not require "sudo"
 Add to your startup applications to always disable on reboot change is not persistent on reboots)
 # Now you're ready to game!!  ENJOY!! 
-#
-# -------------------------------------------------------------------------------
-#
-#
