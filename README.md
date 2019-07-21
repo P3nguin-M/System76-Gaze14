@@ -4,9 +4,10 @@ Small scripts and application tweaks for System76 Gazelle Gaze 14 laptop on Ubun
 #
 #
 #
-# ---------------------------------------------------------------------------------------------------
-#           Enable Touch Type on default Gaze14 detail using
-#                   PID:VID of current keyboard
+# -------------------------------------------------------------------------------
+#          = enable-toouch-type -
+By default enable touch/type input on System76: Gaze14 using PID:VID of current built-in keyboard
+#
 #
 # Pretty simple, download and run:
 $./enable-touch-type.sh
@@ -17,9 +18,9 @@ $./enable-touch-type.sh 1
 
 # No SUDO needed
 Enabling current users does not require "sudo"
-Add to your startup applications to always disable on reboot (change is not persistent on reboots)
+Add to your startup applications to always disable on reboot change is not persistent on reboots)
 # Now you're ready to game!!  ENJOY!! 
 #
-# ---------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
 #
 #
