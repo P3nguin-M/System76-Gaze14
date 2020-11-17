@@ -4,11 +4,11 @@
 
 ## Parse device value of Touchpad Input device
 device=$(xinput|grep "06CB:CD65"|awk -F 'Touchpad' '{print $2}'|cut -f 2)
-device=${device:3}
+device=${device:4}
 
 ## Parse property value of "Disable while Typing"
 prop=$(xinput list-props $device|grep "Disable While Typ"|head -n 1|awk -F '(' '{print $2}')
-prop=${prop:0:3}
+prop=${prop:0:4}
 
 ##
 ## Check if any input is given
